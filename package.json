@@ -1,0 +1,29 @@
+{
+  "name": "insta-bot-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "watch": "nodemon src/index.ts",
+    "debug": "node -r ts-node/register src/index.ts"
+  },
+  "dependencies": {
+    "@social-manager-tools/igbot": "^0.9.19",
+    "@types/express": "^4.17.3",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.9.1",
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "instagood": "^1.4.1",
+    "instagram-nodejs-without-api": "^1.2.0",
+    "instagram-private-api": "^1.39.1",
+    "instagram-web-api": "^2.1.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
